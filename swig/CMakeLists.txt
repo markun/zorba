@@ -50,7 +50,7 @@ IF (SWIG_FOUND)
     MESSAGE (STATUS "Ruby module can't be built Universal")
   ELSE(APPLE AND UNIVERSAL)
     MESSAGE (STATUS "Ruby module being built non-Universal")
-    ADD_SUBDIRECTORY (ruby)
+    #ADD_SUBDIRECTORY (ruby)
   ENDIF (APPLE AND UNIVERSAL)
 
 ENDIF (SWIG_FOUND)
